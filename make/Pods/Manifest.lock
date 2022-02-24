@@ -1,0 +1,26 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.9)
+  - SQLite.swift (0.13.1):
+    - SQLite.swift/standard (= 0.13.1)
+  - SQLite.swift/standard (0.13.1)
+  - SwiftKeychainWrapper (4.0.1)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - SQLite.swift
+  - SwiftKeychainWrapper
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - SQLite.swift
+    - SwiftKeychainWrapper
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  SQLite.swift: 30f2cdb09627181d472e55c4bc6b3b161f28de33
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
+
+PODFILE CHECKSUM: e7beaa0a1810f786e2697f45f009c43a865103ed
+
+COCOAPODS: 1.10.1

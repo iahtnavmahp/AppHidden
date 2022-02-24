@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SettingCollectionViewCell" customModule="lawpro" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="373" height="53"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="373" height="53"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61E-PR-gFu">
+                        <rect key="frame" x="30" y="0.0" width="290.5" height="53"/>
+                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vector (1)-1" translatesAutoresizingMaskIntoConstraints="NO" id="hcZ-lm-DLc">
+                        <rect key="frame" x="328.5" y="0.0" width="44.5" height="53"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="61E-PR-gFu" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.778997" id="1SP-hg-Brq"/>
+                <constraint firstItem="hcZ-lm-DLc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3pL-Ho-cKB"/>
+                <constraint firstAttribute="bottom" secondItem="61E-PR-gFu" secondAttribute="bottom" id="5uj-bn-bZV"/>
+                <constraint firstAttribute="bottom" secondItem="hcZ-lm-DLc" secondAttribute="bottom" id="C9N-gk-Q0h"/>
+                <constraint firstItem="hcZ-lm-DLc" firstAttribute="leading" secondItem="61E-PR-gFu" secondAttribute="trailing" constant="8" id="JsK-VW-lfc"/>
+                <constraint firstItem="61E-PR-gFu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="30" id="N8Z-ZK-2dp"/>
+                <constraint firstAttribute="trailing" secondItem="hcZ-lm-DLc" secondAttribute="trailing" id="rYb-xJ-Lom"/>
+                <constraint firstItem="61E-PR-gFu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zcl-At-6cC"/>
+            </constraints>
+            <size key="customSize" width="373" height="53"/>
+            <connections>
+                <outlet property="imgSetting" destination="hcZ-lm-DLc" id="inG-9i-bJv"/>
+                <outlet property="lblName" destination="61E-PR-gFu" id="HYb-Nr-XrI"/>
+            </connections>
+            <point key="canvasLocation" x="371.73913043478262" y="121.54017857142857"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Vector (1)-1" width="16" height="28"/>
+    </resources>
+</document>

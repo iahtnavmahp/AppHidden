@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="IputTextCollectionViewCell" reuseIdentifier="" id="gTV-IL-0wX" customClass="IputTextCollectionViewCell" customModule="lawpro" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="181" height="154"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="181" height="154"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="Rectangle 65" translatesAutoresizingMaskIntoConstraints="NO" id="pm8-gZ-qit">
+                        <rect key="frame" x="0.0" y="0.0" width="181" height="154"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Bd-78-ldb" userLabel="LabelInput">
+                        <rect key="frame" x="0.0" y="0.0" width="181" height="154"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="4Bd-78-ldb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="0MB-wo-U43"/>
+                <constraint firstItem="pm8-gZ-qit" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3Ew-3i-ALB"/>
+                <constraint firstAttribute="trailing" secondItem="pm8-gZ-qit" secondAttribute="trailing" id="9ww-R1-zLg"/>
+                <constraint firstAttribute="trailing" secondItem="4Bd-78-ldb" secondAttribute="trailing" id="H5l-0h-qNo"/>
+                <constraint firstItem="pm8-gZ-qit" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="PFM-Tn-fa9"/>
+                <constraint firstItem="4Bd-78-ldb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="R2u-Aa-mgP"/>
+                <constraint firstAttribute="bottom" secondItem="4Bd-78-ldb" secondAttribute="bottom" id="lnN-tg-gTT"/>
+                <constraint firstAttribute="bottom" secondItem="pm8-gZ-qit" secondAttribute="bottom" id="v23-UI-iRq"/>
+            </constraints>
+            <size key="customSize" width="181" height="154"/>
+            <connections>
+                <outlet property="ImageBackgroup" destination="pm8-gZ-qit" id="lyw-pQ-Cw8"/>
+                <outlet property="LabelInput" destination="4Bd-78-ldb" id="Tfy-5b-enn"/>
+            </connections>
+            <point key="canvasLocation" x="-21.014492753623191" y="87.723214285714278"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Rectangle 65" width="31" height="31"/>
+    </resources>
+</document>
